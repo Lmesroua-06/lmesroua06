@@ -1,0 +1,31 @@
+#myGame{
+    text-align: center;
+    
+}
+
+
+#gameBoard{
+    border: 5px solid;
+    border-color: blue;
+}
+
+#scoreCnt{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+#resetButton{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    color:blue;
+    border: 3px;
+    border-radius: 10px;
+    border-color: blue;
+    cursor:pointer;
+}
