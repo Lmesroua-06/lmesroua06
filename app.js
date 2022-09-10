@@ -1,3 +1,5 @@
+//Snake game
+
 const gameBoard = document.querySelector("#gameBoard");
 const conTxt = gameBoard.getContext("2d"); // 2d is one of the two canvas tags
 const scoreCnt = document.querySelector("#scoreCnt"); 
@@ -31,8 +33,8 @@ let snake = [
     
 ];
 
-window.addEventListener('keydown' , changeDirection);
-window.resetButton.addEventListener('click' , resetGame); 
+window.addEventListener("keydown" , changeDirection);
+window.resetButton.addEventListener("click" , resetGame); 
 
 playGame();
 
@@ -81,8 +83,9 @@ function inpBait(){
     conTxt.fillRect(appleX, appleY, boardSize, boardSize);
 };
 
-function moveSnake(){};
+function moveSnake();
 
+// draw snake on the baard
 function inpSnake(){
     conTxt.fillStyle = snakeColor;
     conTxt.strokeStyle = snakeBorder;
@@ -92,13 +95,8 @@ function inpSnake(){
     })
 };
 
-function changeDirection(){};
+// inpSnake function is supposed to draw a snake with 25 px of each of its parts, work in progress
 
-function gameResult(){};
-
-function showGameResult(){};
-
-function resetGame(){};
 
 
 
