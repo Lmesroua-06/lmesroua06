@@ -83,7 +83,7 @@ function inpBait(){
     conTxt.fillRect(appleX, appleY, boardSize, boardSize);
 };
 
-function moveSnake();
+
 
 // draw snake on the baard
 function inpSnake(){
